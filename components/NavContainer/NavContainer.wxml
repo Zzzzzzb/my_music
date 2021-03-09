@@ -1,0 +1,7 @@
+<view class="recommend_parent">
+     <text class="commend_song" >{{title}}</text>
+     <view class="recommend_view_child">
+       <text>{{headerTitle}}</text>
+       <text class="recommend_view_more">查看更多</text>
+     </view>
+   </view>

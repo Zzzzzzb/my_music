@@ -35,22 +35,41 @@
      </view>
    </view>
    <view class="recommendContainer">
-   <view class="recommend_parent">
-     <text class="commend_song">推荐歌曲</text>
-     <view class="recommend_view_child">
-       <text>为你精心推荐</text>
-       <text class="recommend_view_more">查看更多</text>
-     </view>
-   </view>
+     <NavContainer title="推荐歌曲" headerTitle="为你精心推荐"></NavContainer>
      <scroll-view class="song_list_parent" enable-flex scroll-x>
        <view class="song_list_child">
+         <image  src="/static/images/changpian.jfif"></image>
+         <text>我是谁我是谁我是谁我是谁我是谁我是谁我是谁我是谁</text>
+       </view>
+       <view class="song_list_child">
+         <image src="/static/images/changpian.jfif"></image>
          <text>我是谁</text>
        </view>
        <view class="song_list_child">
+         <image src="/static/images/changpian.jfif"></image>
+         <text>我是谁</text>
+       </view>
+       <view class="song_list_child">
+         <image src="/static/images/changpian.jfif"></image>
+         <text>我是谁</text>
+       </view>
+       <view class="song_list_child">
+         <image src="/static/images/changpian.jfif"></image>
+         <text>我是谁</text>
+       </view>
+       <view class="song_list_child">
+         <image src="/static/images/changpian.jfif"></image>
+         <text>我是谁</text>
+       </view>
+       <view class="song_list_child">
+         <image src="/static/images/changpian.jfif"></image>
          <text>我是谁</text>
        </view>
       
        
      </scroll-view>
+    </view>
+    <view  class="recommendContainer">
+      <NavContainer title="排行榜" headerTitle="热歌风向标"></NavContainer>
     </view>
 </view>

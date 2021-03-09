@@ -1,0 +1,21 @@
+.recommend_parent{
+  margin-bottom: 10rpx;
+}
+.commend_song {
+  font-size: 32rpx;
+  color: #666;
+  /* margin: 0rpx 20rpx; */
+}
+.recommend_view_child{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0rpx 20rpx; */
+ 
+}
+.recommend_view_more{
+  font-size: 24rpx;
+  text-align: center;
+  border: 1rpx solid #333;
+  border-radius: 10rpx;
+  padding: 10rpx 20rpx;
+}
