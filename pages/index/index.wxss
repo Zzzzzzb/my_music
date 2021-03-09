@@ -1,0 +1,69 @@
+/* pages/index/index.wxss */
+.swiper_parent{
+  width: 100%;
+  height: 300rpx;
+}
+.swiper_child{
+  height: 100%;
+  width: 100%;
+}
+image{
+  width: 100%;
+}
+.nav_bar {
+  display: flex;
+  width: 100%;
+  height: 166rpx;
+  margin-bottom: 20rpx;
+  
+}
+.nav_child {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.nav_child .iconfont{
+  height: 100rpx;
+  width: 100rpx;
+  font-size: 50rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 50%;
+  background: rgb(240, 19, 19);
+  color:#fff;
+  margin: 20rpx;
+  
+}
+.nav_child text{
+  height: 100rpx;
+  width: 100rpx;
+  font-size: 28rpx;
+  text-align: center;
+  margin: 0rpx 20rpx;
+}
+.commend_song {
+  font-size: 32rpx;
+  color: #666;
+  margin: 0rpx 20rpx;
+}
+
+.recommend_view_child{
+   display: flex;
+   justify-content: space-between;
+   margin: 0rpx 20rpx;
+  
+}
+.recommend_view_more{
+  font-size: 24rpx;
+  text-align: center;
+  border: 1rpx solid #333;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+.song_list_parent{
+  display: flex;
+  height: 300rpx;
+}
+.song_list_child {
+  margin-right: 20rpx;
+}

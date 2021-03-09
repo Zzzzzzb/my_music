@@ -1,0 +1,56 @@
+<view class="indexContainer"> 
+
+
+  <!-- 轮播图组件 -->
+  <swiper class="swiper_parent" indicator-dots indicator-active-color = '#d43c33' indicator-color='ivory'>
+     <swiper-item class="swiper_child">
+       <image src="/static/images/meimei.jpg"></image>
+     </swiper-item>
+     <swiper-item class="swiper_child">
+      <image src="/static/images/meimei.jpg"></image>
+     </swiper-item>
+    </swiper>
+
+  <!-- 导航栏导航icon  -->
+   <view class="nav_bar"> 
+     <view class="nav_child">
+        <text class="iconfont icon-tuijian"></text>
+        <text>推荐</text>
+     </view>
+     <view class="nav_child">
+      <text class="iconfont icon-gedan"></text>
+        <text>歌单</text>
+     </view>
+     <view class="nav_child">
+      <text class="iconfont icon-paihangbang"></text>
+        <text>排行榜</text>
+     </view>
+     <view class="nav_child">
+      <text class="iconfont icon-diantai"></text>
+        <text>电台</text>
+     </view>
+     <view class="nav_child">
+      <text class="iconfont icon-dianshizhiboguankanshipinbofangmeiti"></text>
+        <text>直播</text>
+     </view>
+   </view>
+   <view class="recommendContainer">
+   <view class="recommend_parent">
+     <text class="commend_song">推荐歌曲</text>
+     <view class="recommend_view_child">
+       <text>为你精心推荐</text>
+       <text class="recommend_view_more">查看更多</text>
+     </view>
+   </view>
+     <scroll-view class="song_list_parent" enable-flex scroll-x>
+       <view class="song_list_child">
+         <text>我是谁</text>
+       </view>
+       <view class="song_list_child">
+         <text>我是谁</text>
+       </view>
+      
+       
+     </scroll-view>
+    </view>
+</view>
